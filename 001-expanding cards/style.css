@@ -52,7 +52,11 @@ body {
   transition: opacity 0.3s ease-in 0.4s;
 }
 
-@media (max-width: 480px) {
+
+/* o @meida serve para aplicar responsividade de acordo com a tela onde se exibe a aplicação
+Ou seja, Notebook, smartphones tem resolução distintas e precisam se adaptar
+*/
+@media (max-width: 480px) { 
   .container {
     width: 100vw;
   }
